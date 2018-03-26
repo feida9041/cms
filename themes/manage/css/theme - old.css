@@ -1,0 +1,32 @@
+.ticket_preview {
+    width: 350px;
+    height: 186px;
+    /*border: none;*/
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 8px;
+    position: relative;
+    float: left;
+}
+
+.code_size {
+    width: 156px;
+    height: 156px;
+}
+
+.ticket_preview .ticket_qr_code {
+    width: 100%;
+    height: 156px;
+    text-align: center;
+}
+
+.ticket_preview .ticket_content {
+    width: 100%;
+    /*height: 30px;*/
+    font-size: 14px;
+    text-align: center;
+    word-break: break-all;
+}

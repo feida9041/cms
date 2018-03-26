@@ -1,0 +1,87 @@
+/**
+打印机Gprinter  GP-2120T 样式
+ */
+
+/*二维码样式*/
+.ticket_preview {
+    width: 282px;
+    height: 162px;
+    /*border: none;*/
+    border: 1px solid #000;
+    margin: 3px;
+    padding: 4px;
+    position: relative;
+    float: left;
+}
+
+.code_size {
+    width: 140px;
+    height: 140px;
+}
+
+.ticket_preview .ticket_qr_code {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+}
+
+.ticket_preview .ticket_content {
+    width: 100%;
+    /*height: 30px;*/
+    font-size: 12px;
+    text-align: center;
+    word-break: break-all;
+}
+
+/*物流码样式*/
+.ticket_logistics {
+    width: 162px;
+    height: 96px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 0;
+    position: relative;
+    float: left;
+}
+
+.ticket_logistics_first {
+    width: 162px;
+    height: 96px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 0;
+    position: relative;
+    float: left;
+}
+
+.ticket_logistics_code {
+    width: 100%;
+    height: 78px;
+}
+
+.logistics_font {
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.small-font {
+    font-size: 12px;
+    -webkit-transform-origin-x: 0;
+    -webkit-transform: scale(0.90);
+}
+
+.smallsize-font {
+    font-size: 10.8px;
+}
+
+.logistics_code {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "cache/filesystem-adapter": "^1.0",
+        "curl/curl": "^1.8"
+    }
+}

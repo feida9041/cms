@@ -1,0 +1,280 @@
+/* * CT: 2018-02-05 15:00 by Hank*/
+/* * LT: 2018-02-06 18:00 by Hank*/
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background: #f4f4f4;
+    font-size: 12px;
+    font-family: PingHei, "PingFang SC", "Helvetica Neue", Helvetica, STHeitiSC-Light, "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    word-break: break-all;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    list-style-type: none;
+    outline: none;
+}
+
+.ranking {
+    padding: 1.5em 1em;
+}
+
+.rank_head {
+    padding: .5em 0;
+}
+
+.rank_head table {
+    width: 100%;
+}
+
+.rank_head td {
+    width: 33.3333%;
+}
+
+.rank_head thead {
+    line-height: 1.1;
+}
+
+.rank_head thead td {
+    text-align: center;
+    font-size: 1.6em;
+    color: #4cbef3;
+    font-weight: 700;
+}
+
+.rank_head thead th {
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 1.8em;
+    color: #f5b944;
+    font-weight: 700;
+}
+
+.rank_head tbody td {
+    padding-top: .8em;
+    text-align: center;
+    font-size: 1.2em;
+    color: #1a81bd;
+}
+
+.rank_head tbody th {
+    padding-top: 0;
+    text-align: center;
+    font-size: 1.2em;
+    color: #f5b944;
+}
+
+.rank_box {
+    position: relative;
+    margin-top: -1em;
+    width: 100%;
+}
+
+.rank_box img {
+    position: relative;
+    width: 100%;
+}
+
+.rank_box table {
+    position: absolute;
+    top: 50%;
+    margin-top: -.5em;
+    width: 100%;
+}
+
+.rank_head .first {
+    position: relative;
+}
+
+.icon_first {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -12px;
+    margin-right: -18px;
+    display: block;
+    width: 26px;
+    height: 21px;
+    background-image: url(/Public/images/first.png);
+    background-size: 26px 21px;
+}
+
+.rank_main table {
+    width: 100%;
+}
+
+.rank_main table {
+    width: 100%;
+    text-align: center;
+    border-radius: .4em;
+    background-color: #fff;
+    border: 1.5em solid #fff;
+}
+
+.rank_main table thead {
+    font-size: 1.2em;
+    color: #c5c5c5;
+}
+
+.rank_main table thead td {
+    padding: .5em;
+    border-bottom: .1em solid #eee;
+}
+
+.rank_main table tbody {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.rank_main table tbody td {
+    padding: 1em .5em;
+}
+
+.rank_foot ul {
+    padding: 0;
+    margin: 0;
+}
+
+.rank_foot ul li {
+    margin-top: 1em;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.rank_foot ul li .red {
+    padding-left: .3em;
+    padding-right: 1em;
+    color: #cf3c1e;
+}
+
+/*售后*/
+.cs_head:before,
+.cs_head:after {
+    display: table;
+    content: " ";
+}
+
+.cs_head:after {
+    clear: both;
+}
+
+.cs_head {
+    top: 0;
+    position: fixed;
+    padding: 1.2em 1.5em .6em;
+    background-color: #fff;
+}
+
+.cs_head a {
+    float: left;
+    display: inline-block;
+    margin-right: .6em;
+    margin-bottom: .6em;
+    padding: .5em 1.2em;
+    font-size: 1.4em;
+    line-height: 1.1;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 1.4em;
+}
+
+.c_service {
+    padding: 1em;
+}
+
+.cs_card {
+    margin-bottom: 1em;
+    background-color: #fff;
+
+}
+
+.cs_card .head {
+    padding: .5em 1em;
+    font-size: 1.4em;
+    color: #999;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.cs_card .cs_group {
+    padding: .5em 1em;
+}
+
+.cs_item {
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.cs_item .cs_q {
+    margin-bottom: .3em;
+    padding-right: 2em;
+    font-size: 1.4em;
+    color: #444;
+}
+
+.cs_item .cs_a {
+    display: none;
+    font-size: 1.3em;
+    color: #999;
+}
+
+.cs_item.open .cs_a {
+    display: block;
+}
+
+.icon_arrow {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    display: block;
+    width: 8px;
+    height: 5px;
+    background-image: url(/Public/images/arrow.png);
+    background-size: 8px 5px;
+}
+
+.cs_item.open .icon_arrow {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#donate_carousel {
+    overflow: hidden;
+    height: 120px;
+}
+
+.donate_bar {
+    margin-left: 30px;
+    padding: 0;
+    line-height: 25px;
+}
+
+.donate_bar li {
+    height: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.donate_bar span {
+    font-size: 8px;
+    color: royalblue;
+    margin-left: 0;
+}
